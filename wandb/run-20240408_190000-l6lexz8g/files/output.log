@@ -1,0 +1,67 @@
+c:\Softwares\Anaconda\Lib\site-packages\accelerate\accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead:
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None)
+  warnings.warn(
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+c:\Softwares\Anaconda\Lib\site-packages\accelerate\accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead:
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None)
+  warnings.warn(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+c:\Softwares\Anaconda\Lib\site-packages\accelerate\accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead:
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None)
+  warnings.warn(
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x000002074AD69260>
+Traceback (most recent call last):
+  File "c:\Softwares\Anaconda\Lib\site-packages\torch\utils\data\dataloader.py", line 1479, in __del__
+    self._shutdown_workers()
+  File "c:\Softwares\Anaconda\Lib\site-packages\torch\utils\data\dataloader.py", line 1437, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+c:\Softwares\Anaconda\Lib\site-packages\accelerate\accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead:
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None)
+  warnings.warn(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Found cached dataset v1 (C:/Users/Abhinav Gupta/.cache/huggingface/datasets/CLUTRR___v1/gen_train234_test2to10/1.0.0/5d12dad8acafc131b739b03fe83ab4164879e206337a0814a8a56e3fa86c80f2)
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+c:\Softwares\Anaconda\Lib\site-packages\accelerate\accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead:
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None)
+  warnings.warn(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+c:\Softwares\Anaconda\Lib\site-packages\accelerate\accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead:
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None)
